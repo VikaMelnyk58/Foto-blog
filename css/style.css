@@ -1,0 +1,56 @@
+:root{
+    --hover-color: #03A9F4;
+    --navigation-color: #7D7D7D;
+    --filter-color: #B4AD9E;
+    --text-color: #626262;
+}
+.container{
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid skyblue;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.cards-paragraph{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navigation-link{
+    color: var(--navigation-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.navigation-list{
+    list-style: none;
+}
+.navigation-link:hover,
+.navigation-link:focus{
+     color: var(--hover-color);
+}
+.cards-list{
+    list-style: none;
+    width: 420px;
+}
+.cards-paragraph{
+    color: var(--filter-color);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.cards-title{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.cards-text{
+    color: var(--text-color);
+}
+.btn{
+    border: 1px solid var(--text-color);
+    background-color: white;
+    padding: 20px 49px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
