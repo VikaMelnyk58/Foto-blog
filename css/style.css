@@ -8,7 +8,6 @@
     width: 936px;
     padding: 0 15px;
     margin: 0 auto;
-    border: 1px solid skyblue;
 }
 body{
     font-family: 'Playfair Display', serif;
@@ -30,10 +29,6 @@ body{
 .navigation-link:focus{
      color: var(--hover-color);
 }
-.cards-list{
-    list-style: none;
-    width: 420px;
-}
 .cards-paragraph{
     color: var(--filter-color);
     text-transform: uppercase;
@@ -53,4 +48,23 @@ body{
     padding: 20px 49px;
     font-family: 'Playfair Display', serif;
     cursor: pointer;
+    
 }
+.navigation-list{
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+    margin: 0 auto;
+}
+.cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards-item{
+    margin-bottom: 130px;
+    display: inline-block;
+    width: 420px;
+}
+.btn:hover,
+.btn:focus
