@@ -13,6 +13,10 @@ body{
     font-family: 'Playfair Display', serif;
     font-size: 14px;
 }
+.header{
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
 .cards-paragraph{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -22,22 +26,26 @@ body{
     text-transform: uppercase;
     font-weight: 400;
 }
-.navigation-list{
-    list-style: none;
-}
 .navigation-link:hover,
 .navigation-link:focus{
      color: var(--hover-color);
+}
+.photo{
+    margin-bottom: 66px;
+}
+.cards-img{
+    margin-bottom: 62px;
 }
 .cards-paragraph{
     color: var(--filter-color);
     text-transform: uppercase;
     font-weight: 300;
+    margin-bottom: 32px;
 }
 .cards-title{
     font-size: 30px;
-    font-weight: 400;
     color: var(--text-color);
+    margin-bottom: 40px;
 }
 .cards-text{
     color: var(--text-color);
@@ -48,9 +56,14 @@ body{
     padding: 20px 49px;
     font-family: 'Playfair Display', serif;
     cursor: pointer;
-    
+}
+.btn:hover,
+.btn:focus{
+    color: var(--hover-color);
+    border-color: var(--hover-color);
 }
 .navigation-list{
+    list-style: none;
     display: flex;
     justify-content: space-between;
     width: 555px;
@@ -66,5 +79,7 @@ body{
     display: inline-block;
     width: 420px;
 }
-.btn:hover,
-.btn:focus
+.button-wrap{
+    display: flex;
+    justify-content: center;
+}
