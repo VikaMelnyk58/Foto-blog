@@ -1,6 +1,12 @@
-body{
+*{
     box-sizing: border-box;
+}
+body{
     margin: 0;
+    padding: 0;
+    font-family: $main-font;
+    font-size: 14px;
+    background-color: $bg-color;
 }
 ul{
     list-style: none;
@@ -13,4 +19,9 @@ a{
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
     padding: 0;
+}
+.container{
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
 }

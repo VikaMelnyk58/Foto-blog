@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>photoblog</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <title>FOTO-BLOG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <nav class="navigation">
-                <ul class="navigation-list">
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">lifestyle</a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">lifestyle</a>
                     </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">photodiary</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">photodiary</a>
                     </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">music</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">music</a>
                     </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">travel</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">travel</a>
                     </li>
                 </ul>
             </nav>
@@ -30,49 +33,59 @@
         
     </header>
     <main>
-        <div class="container">
-            <section class="photo">
-                <ul class="cards-list">
-                    <li class="cards-item">
-                        <img class="cards-img" src="./img/photo1.png" alt="girl">
-                        <p class="cards-paragraph">lifestyle</p>
-                        <h2 class="cards-title">More than just a music festival</h2>
-                        <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+        <section class="photo">
+            <div class="container">
+                <ul class="photo__list">
+                    <li class="photo__item">
+                        <img class="photo__img" src="./img/girl.png" alt="girl">
+                        <p class="photo__filter">lifestyle</p>
+                        <h2 class="photo__title">More than just a music festival</h2>
+                        <p class="photo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                     </li>
-                    <li class="cards-item">
-                        <img class="cards-img" src="./img/photo2.png" alt="cup">
-                        <p class="cards-paragraph">lifestyle</p>
-                        <h2 class="cards-title">Life tastes better with coffee</h2>
-                        <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                    <li class="photo__item">
+                        <img class="photo__img" src="./img/cup.png" alt="cup">
+                        <p class="photo__filter">lifestyle</p>
+                        <h2 class="photo__title">Life tastes better with coffee</h2>
+                        <p class="photo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                     </li>
-                    <li class="cards-item">
-                        <img class="cards-img" src="./img/photo3.png" alt="two girls">
-                        <p class="cards-paragraph">photodiary</p>
-                        <h2 class="cards-title">American dream</h2>
-                        <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                    <li class="photo__item">
+                        <img class="photo__img" src="./img/twogirls.png" alt="two girls">
+                        <p class="photo__filter">photodiary</p>
+                        <h2 class="photo__title">American dream</h2>
+                        <p class="photo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                     </li>
-                    <li class="cards-item">
-                        <img class="cards-img" src="./img/photo4.png" alt="man">
-                        <p class="cards-paragraph">photodiary</p>
-                        <h2 class="cards-title">A day exploring the Alps</h2>
-                        <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                    <li class="photo__item">
+                        <img class="photo__img" src="./img/man.png" alt="man">
+                        <p class="photo__filter">photodiary</p>
+                        <h2 class="photo__title">A day exploring the Alps</h2>
+                        <p class="photo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                     </li>
-                    <li class="cards-item">
-                        <img class="cards-img" src="./img/photo5.png" alt="girl with a hat">
-                        <p class="cards-paragraph">lifestyle</p>
-                        <h2 class="cards-title">Top 10 song for running</h2>
-                        <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                    <li class="photo__item">
+                        <img class="photo__img" src="./img/girlwithhat.png" alt="girl with a hat">
+                        <p class="photo__filter">lifestyle</p>
+                        <h2 class="photo__title">Top 10 song for running</h2>
+                        <p class="photo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                     </li>
-                    <li class="cards-item">
-                        <img class="cards-img" src="./img/photo6.png" alt="road">
-                        <p class="cards-paragraph">lifestyle</p>
-                        <h2 class="cards-title">Cold winter days</h2>
-                        <p class="cards-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                    <li class="photo__item">
+                        <img class="photo__img" src="./img/road.png" alt="road">
+                        <p class="photo__filter">lifestyle</p>
+                        <h2 class="photo__title">Cold winter days</h2>
+                        <p class="photo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                     </li>
                 </ul>
-                <div class="button-wrap"><button type="button" class="btn">Load more</button></div>
-            </section>
-        </div>
+                <div class="photo__button-wrap">
+                    <button class="photo__btn" type="button">load more</button>
+                </div>    
+            </div>
+        </section>
+       
+        
     </main>
 </body>
 </html>
