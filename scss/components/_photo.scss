@@ -8,7 +8,7 @@
   .photo {
     padding-bottom: 66px;
     &__list {
-      @include flex();
+      // @include flex();
       flex-wrap: wrap;
     }
     &__img {
@@ -19,7 +19,7 @@
       margin-bottom: 32px;
     }
     &__title {
-     @include title();
+    //  @include title();
     }
     &__text {
       color: $text-color;
